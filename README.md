@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# THE DUBAI MALL | DIGITAL ARCHITECTURE
 
-## Getting Started
+/**
+ * @project     The Dubai Mall Sales Deck
+ * @version     1.0.0
+ * @developer   Lakshay Yadav
+ * @stack       Next.js 14, Tailwind CSS, Framer Motion
+ * @theme       Minimalist Premium / Luxury Gold (#c9a84c)
+ */
 
-First, run the development server:
+---
+
+## 🏗️ SYSTEM ARCHITECTURE
+
+### 1. ENTERTAINMENT MODULE
+- **Visual Engine**: Automated transitions for the Dubai Fountain and NYE Gala.
+- **Cycle Logic**: 3-second intervals for the "Glass Box" attraction UI.
+
+### 2. OPERATIONAL DATA OBJECT
+- **Retail Hours**: 10:00 AM - 11:00 PM (Mon-Thu) / 12:00 AM (Fri-Sun).
+- **Dining Hours**: 10:00 AM - 12:00 AM Daily.
+- **Metro Link**: Temperature-controlled bridge access from Burj Khalifa Station.
+
+### 3. LOGISTICS & PARKING
+- **Capacity**: 14,000+ Smart Slots across Fashion, Cinema, and Zabeel zones.
+- **Salik System**: Automatic fee deduction for ticketless entry/exit.
+- **Grace Period**: 4 hours free on weekdays; 6 hours free on weekends.
+
+---
+
+## 🛠️ DEPLOYMENT INSTRUCTIONS
 
 ```bash
+# 1. Clone & Initialize
+npm install
+
+# 2. Update Environment
+# Replace favicon.ico in /app to update browser tab icon
+# Update metadata in layout.js for SEO optimization
+
+# 3. Launch Development
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
